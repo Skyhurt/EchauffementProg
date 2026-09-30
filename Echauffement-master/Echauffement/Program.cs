@@ -18,6 +18,8 @@ class Program
         Console.ReadLine();
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
+
+
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
