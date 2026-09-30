@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sakur\\Desktop\\Echauffement-master\\Echauffement-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C029273-B23B-4283-876C-41E5196DE8A6}|Echauffement\\Echauffement.csproj|c:\\users\\sakur\\desktop\\echauffement-master\\echauffement-master\\echauffement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C029273-B23B-4283-876C-41E5196DE8A6}|Echauffement\\Echauffement.csproj|solutionrelative:echauffement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C029273-B23B-4283-876C-41E5196DE8A6}|Echauffement\\Echauffement.csproj|c:\\users\\sakur\\desktop\\echauffement-master\\echauffement-master\\echauffement\\echauffement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C029273-B23B-4283-876C-41E5196DE8A6}|Echauffement\\Echauffement.csproj|solutionrelative:echauffement\\echauffement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sakur\\Desktop\\Echauffement-master\\Echauffement-master\\Echauffement\\Program.cs",
+              "RelativeDocumentMoniker": "Echauffement\\Program.cs",
+              "ToolTip": "C:\\Users\\sakur\\Desktop\\Echauffement-master\\Echauffement-master\\Echauffement\\Program.cs*",
+              "RelativeToolTip": "Echauffement\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T07:36:19.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Echauffement",
+              "DocumentMoniker": "C:\\Users\\sakur\\Desktop\\Echauffement-master\\Echauffement-master\\Echauffement\\Echauffement.csproj",
+              "RelativeDocumentMoniker": "Echauffement\\Echauffement.csproj",
+              "ToolTip": "C:\\Users\\sakur\\Desktop\\Echauffement-master\\Echauffement-master\\Echauffement\\Echauffement.csproj",
+              "RelativeToolTip": "Echauffement\\Echauffement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-30T07:35:52.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
