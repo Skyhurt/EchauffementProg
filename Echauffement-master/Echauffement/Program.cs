@@ -41,8 +41,12 @@ class Program
         float money = Convert.ToSingle(Console.ReadLine());
         Console.WriteLine("Tu as " + money + " euros");
 
-
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
+
+        Console.WriteLine("1. Epée - 50 euros");
+        Console.WriteLine("2. Hache - 60 euros");
+        Console.WriteLine("3. Claymore - 70 euros");
+        Console.WriteLine("4. Espadon - 80 euros");
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
 
