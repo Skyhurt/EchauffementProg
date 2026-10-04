@@ -16,14 +16,23 @@ class Program
         
         int age;        
         Console.WriteLine("Quel est ton prénom ?");
-        string prenom = Console.ReadLine();
+        string firstName = Console.ReadLine();
         Console.WriteLine("Quel est ton âge ?");
         age = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Tu as " + age + " ans et tu t'appelle " + prenom);
+        Console.WriteLine("Tu as " + age + " ans et tu t'appelle " + firstName);
         
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
-
+        if (age >= 18)
+        {
+            Console.WriteLine("Tu es majeur");
+        
+        } else
+            {
+            
+            Console.WriteLine("Tu es mineur");
+           
+            }
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
 
