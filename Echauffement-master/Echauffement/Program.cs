@@ -15,26 +15,26 @@ class Program
         Console.WriteLine("Bonjour ! Je m'appelle Alexandre et je suis sur Dawn of War en ce moment");
 
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
-        
-        int age;        
+
+        int age;
         Console.WriteLine("Quel est ton prénom ?");
         string firstName = Console.ReadLine();
         Console.WriteLine("Quel est ton âge ?");
         age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Tu as " + age + " ans et tu t'appelle " + firstName);
-        
+
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
         if (age >= 18)
         {
             Console.WriteLine("Tu es majeur");
-        
+
         } else
-            {
-            
+        {
+
             Console.WriteLine("Tu es mineur");
-           
-            }
+
+        }
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)        
         Console.WriteLine("Combien d'euros possède tu ?");
@@ -51,21 +51,51 @@ class Program
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
         Console.WriteLine("Quel arme choisis-tu ?");
         int choiceWeapon = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Vous avez choisi l'arme " + choiceWeapon);
+        Console.WriteLine("Tu as choisi l'arme " + choiceWeapon);
 
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
-
+        Console.WriteLine("Maintenant, on va vérifier si tu as assez d'argent");
         if (money >= 50)
         {
-            Console.WriteLine("Tu as assez d'argent pour acheter une arme !");
+            Console.WriteLine("Magnifique ! Tu as assez d'argent pour acheter une arme !");
         } else
-            {
-            Console.WriteLine("Tu n'as pas assez d'argent pour acheter ton arme !");
-            }
+        {
+            Console.WriteLine("Malheureusement, tu n'as pas assez d'argent pour acheter ton arme !");
+        }
 
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
         // Lorsque l'utilisateur respecte ces demandes, retirez le prix de l'arme de l'argent de l'utilisateur, puis confirmez à l'utilisateur que l'action a été effectuée 
         // Dans tous les autres cas, informez l'utilisateur que l'action n'a pas été possible
+        int priceSword = 50;
+        int priceAxe = 60;
+        int priceClaymore = 70;
+        int priceEspadon = 80;
+
+        if (age >= 18 && money >= 50)
+        {
+            if (choiceWeapon == 1)
+            {
+                money = money - priceSword;
+            }
+                if (choiceWeapon == 2)
+                {
+                    money = money - priceAxe;
+                }
+                    if (choiceWeapon == 3)
+                    {
+                        money = money - priceClaymore;
+                    }
+                        if (choiceWeapon == 4)
+                        {
+                            money = money - priceEspadon;
+                        }
+            Console.WriteLine("Tu as acheté l'arme " + choiceWeapon);
+        } else
+        {
+            Console.WriteLine("Mais tu n'es pas majeur ou tu n'as pas assez d'argent !");
+        }
+        Console.WriteLine("Du coup, il te reste " + money + " euros");
+
 
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
