@@ -10,12 +10,17 @@ class Program
 
         // Etape 1 : présentez-vous en écrivant votre prénom et votre jeu préféré
 
-        Console.WriteLine("Bonjour ! Je m'appelle Alexandre et je kiff Dawn of War");
+        Console.WriteLine("Bonjour ! Je m'appelle Alexandre et je suis sur Dawn of War en ce moment");
 
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
-
-        Console.WriteLine("Quel est ton prénom et ton âge ?");
-        Console.ReadLine();
+        
+        int age;        
+        Console.WriteLine("Quel est ton prénom ?");
+        string prenom = Console.ReadLine();
+        Console.WriteLine("Quel est ton âge ?");
+        age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Tu as " + age + " ans et tu t'appelle " + prenom);
+        
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
 
