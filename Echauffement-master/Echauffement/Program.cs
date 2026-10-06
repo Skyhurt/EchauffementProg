@@ -27,12 +27,12 @@ class Program
 
         if (age >= 18)
         {
-            Console.WriteLine("Tu es majeur");
+            Console.WriteLine("Donc, tu es majeur");
 
         } else
         {
 
-            Console.WriteLine("Tu es mineur");
+            Console.WriteLine("Donc, tu es mineur");
 
         }
 
@@ -60,7 +60,7 @@ class Program
             Console.WriteLine("Magnifique ! Tu as assez d'argent pour acheter une arme !");
         } else
         {
-            Console.WriteLine("Malheureusement, tu n'as pas assez d'argent pour acheter ton arme !");
+            Console.WriteLine("Malheureusement, tu n'as pas assez d'argent pour acheter une arme !");
         }
 
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
@@ -92,7 +92,7 @@ class Program
             Console.WriteLine("Tu as acheté l'arme " + choiceWeapon);
         } else
         {
-            Console.WriteLine("Mais tu n'es pas majeur ou tu n'as pas assez d'argent !");
+            Console.WriteLine("En plus, tu n'es pas majeur ou tu n'as pas assez d'argent !");
         }
         Console.WriteLine("Du coup, il te reste " + money + " euros");
 
