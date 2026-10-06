@@ -89,7 +89,7 @@ class Program
                         {
                             money = money - priceEspadon;
                         }
-            Console.WriteLine("Tu as acheté l'arme " + choiceWeapon);
+            Console.WriteLine("Tu as acheté l'arme " + choiceWeapon + " ! ");
         } else
         {
             Console.WriteLine("En plus, tu n'es pas majeur ou tu n'as pas assez d'argent !");
